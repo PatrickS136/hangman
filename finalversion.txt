@@ -1,0 +1,94 @@
+AIf the randomized word is 'Australia'
+Then, it comes out as *********
+
+Input				Expected output				Obtained output
+a				A****A**A				A****A**A
+                                   
+				You used: 				You used:				
+				A					A
+                                   			
+				Correct, you have 6 lives left.		Correct, you have 6 lives left.
+                                   
+				Enter a letter : 			Enter a letter :
+
+
+
+b				A****A**A				A****A**A
+                                   
+				You used: 				You used:				
+				AB					AB
+                                   			
+				False, you have 5 lives left.		False, you have 5 lives left.
+                                   
+				Enter a letter : 			Enter a letter :
+
+
+
+a				A****A**A				A****A**A
+                                   
+				You used: 				You used:				
+				ABA					ABA
+                                   			
+				False, you have 4 lives left.		False, you have 4 lives left.
+                                   
+				Enter a letter : 			Enter a letter :
+
+
+
+S				A*S**A**A				A*S**A**A
+                                   
+				You used: 				You used:				
+				ABAS					ABAS
+                                   			
+				Correct, you have 4 lives left.		Correct, you have 4 lives left.
+                                   
+				Enter a letter : 			Enter a letter :
+
+
+
+aaaa				Invalid input				Invalid input
+
+				Enter a letter:				Enter a letter:
+
+
+
+u				AUS**A**A				AUS**A**A
+                                   
+				You used: 				You used:				
+				ABASU					ABASU
+                                   			
+				Correct, you have 4 lives left.		Correct, you have 4 lives left.
+                                   
+				Enter a letter : 			Enter a letter :
+
+
+
+$				AUS**A**A				AUS**A**A
+                                   
+				You used: 				You used:				
+				ABASU$					ABASU$
+                                   			
+				False, you have 3 lives left.		False, you have 3 lives left.
+                                   
+				Enter a letter : 			Enter a letter :
+
+
+
+4				AUS**A**A				AUS**A**A
+                                   
+				You used: 				You used:				
+				ABASU$4					ABASU$4
+                                   			
+				False, you have 2 lives left.		False, you have 2 lives left.
+                                   
+				Enter a letter : 			Enter a letter :
+
+
+
+
+				--2 Ways the game can end--
+
+'Lives reach 0' 		You lost, the word was AUSTRALIA	You lost, the word was AUSTRALIA
+'All characters guessed'	You won, the word was AUSTRALIA		You won, the word was AUSTRALIA
+	
+
